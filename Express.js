@@ -29,7 +29,9 @@ app.use(express.static(staticPath));
 
     res.send("What are you looking for ?dude!!!")
  })
- app.listen(3000);
+ app.listen(port, ()=>{
+     console.log("app is listening successfully");
+ });
 
 
 
