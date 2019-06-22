@@ -2,6 +2,7 @@
  let app = express();
 const path = require('path');
 const hbs  = require('hbs');
+const port = process.env.PORT || 3000;
  //set view
  //set view engine
  //use static path
