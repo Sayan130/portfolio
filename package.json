@@ -4,8 +4,7 @@
   "description": "",
   "main": "Express.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": " Express.js"
+    "start": " node Express.js"
   },
   "author": "Sayan",
   "license": "ISC",
